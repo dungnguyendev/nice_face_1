@@ -1,0 +1,557 @@
+:root {
+    --color: #858080;
+    --color_icon: #000;
+    --with_chung: 1200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+}
+
+.box_menu {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+}
+
+.logo_shop img {
+    max-width: 200px;
+    height: 60px;
+}
+
+.menu_cha {
+    position: relative;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+
+}
+
+.menu_cha li {
+    padding: 24px;
+}
+
+.menu_cha li a {
+    color: var(--color);
+    transition: 0.5s ease;
+}
+
+.menu_cha li a:hover {
+    color: rgb(56, 55, 55);
+}
+
+.menu_con {
+    z-index: 100;
+    position: absolute;
+    list-style: none;
+    padding: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+
+.fa-angle-left {
+    margin-left: 10px;
+    transform: rotate(-90deg);
+}
+
+.menu_con li {
+    padding: 5px;
+}
+
+.menu_cha li:hover ul {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: rgb(218, 215, 215);
+    visibility: visible;
+    opacity: 1;
+}
+
+.box_icon {
+    display: flex;
+}
+
+.icon_1 {
+    padding: 20px;
+}
+
+.icon_1 i {
+    color: var(--color_icon);
+}
+/* Banner */
+.box_banner {
+    z-index: -1;
+    position: relative;
+    height: 315px;
+    max-width: 1920px;
+    padding-top: 97.6px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner_1 {
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+
+.banner {
+    position: absolute;
+    background-color: #33455c;
+    width: 1920px;
+    z-index: 30;
+    height: 315px;
+    opacity: 0.6;
+    margin: 0 auto;
+}
+
+.banner_3 {
+    max-width: 1200px;
+    height: 315px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.banner_3 p {
+    z-index: 200;
+    color: #fff;
+    font-size: 37px;
+
+    position: absolute;
+}
+
+.ground_banner p {
+    margin-top: -100px;
+}
+
+.box_banner img {
+    object-fit: cover;
+    height: 315px;
+    width: 100%;
+}
+
+/* title */
+.title_fist {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title_fist ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.title_fist ul li {
+    display: flex;
+}
+
+.title_fist ul li a {
+    color: var(--color);
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.title_fist ul li a p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Gio hang */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.banggiohang {
+	padding-top: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+.thongtingiohang {
+	width: 69%;
+}
+.tonggiohang {
+	width: 29%;
+}
+.thongtingiohang .bang th {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.thongtingiohang .bang .cot1 {
+	padding-right: 80px;
+}
+.thongtingiohang .bang .cot2 {
+	padding-right: 110px;
+}
+.thongtingiohang .bang .cot3 {
+	padding-right: 40px;
+}
+.thongtingiohang .bang .cot4 {
+	padding-right: 30px;
+}
+.thongtingiohang .bang .cot5 {
+	padding-right: 30px;
+}
+.thongtingiohang .bang {
+	padding: 5px;
+	border-collapse: collapse;
+}
+.thongtingiohang .tr2 {
+	border: 0;
+}
+.thongtingiohang .tr1 th {
+	padding-bottom: 20px;
+}
+.thongtingiohang .tr2 {
+	border: 1px #cccccc solid;
+	border-radius: 12px;
+}
+.thongtingiohang tr td {
+	vertical-align: top;
+	padding: 20px;
+}
+.tdhinh {
+	width: 60px;
+	height: 60px;
+	padding-right: 10px;
+}
+.thongtingiohang .noidung {
+	line-height: 20px;
+}
+.thongtingiohang button {
+	padding: 10px 18px;
+	border-radius: 8px;
+	border: none;
+	background-color: #ffd706;
+}
+.thongtingiohang .magiamgia {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 810px;
+}
+.magiamgia input {
+	width: 55%;
+	height: 60px;
+	padding-left: 20px;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.64);
+	border: 1px solid #cccccc;
+}
+.magiamgia button {
+	width: 39%;
+	padding-right: 20px;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.tonggiohang {
+	background-color: #e3f5f5;
+	height: 440px;
+	border-radius: 12px;
+}
+.tonggiohang h2 {
+	margin: 47px 0;
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongphu {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+}
+.tonggiohang .tongphu p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongphu span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .giaohang {
+	padding: 25px;
+}
+.tonggiohang .giaohang p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .giaohang span {
+	display: block;
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .tongdonhang {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px 25px;
+}
+.tonggiohang .tongdonhang p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongdonhang span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .btn-kiemtra {
+	width: 100%;
+}
+.tonggiohang button {
+	margin-left: 25px;
+	padding: 15px 80px;
+	background-color: transparent;
+	border: 1px solid #ffd706;
+	border-radius: 12px;
+}
+.tonggiohang .btn-kiemtra a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* San pham tuong tu */
+.sptuongtu {
+	margin-top: 180px;
+    margin-bottom: 180px;
+}
+.sptuongtu h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 153.6%;
+	color: #000000;
+	text-align: center;
+}
+.sptuongtu p {
+	padding-top: 15px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 153.6%;
+	text-align: center;
+	color: #000000;
+}
+.sptuongtu .sanpham {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.sptuongtu .sanpham .box {
+	width: 20%;
+	height: 225px;
+}
+.sptuongtu .sanpham .box img {
+	width: 100%;
+	border-radius: 12px;
+	height: 100%;
+}
+.sptuongtu .sanpham .danhgia {
+	padding: 5px;
+}
+.sptuongtu .sanpham .danhgia i {
+	width: 17px;
+	height: 17px;
+	color: #ffd506;
+}
+.sptuongtu .sanpham .danhgia span {
+	padding-left: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.sptuongtu .sanpham a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.sptuongtu .sanpham .box h5 {
+	padding-top: 7px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+/* Footer */
+.box_footer {
+    background: rgba(39, 35, 67, 1);
+    max-width: 1920px;
+    color: rgb(236, 235, 235);
+    margin: 0 auto;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box_footer_1 img {
+    width: 200px;
+    height: 80px;
+}
+
+.box_footer_1 span {
+    color: rgb(205, 199, 199);
+    font-size: 15px;
+}
+
+.icon-footer ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.icon-footer ul li {
+    padding-right: 18px;
+}
+
+.icon-footer ul li a i {
+    color: rgb(236, 235, 235);
+    transform: scale(1.3);
+}
+
+.icon-footer ul li a i:hover {
+    transform: scale(1.45);
+}
+
+.box_footer_2,
+.box_footer_3,
+.box_footer_4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_footer_2 ul,
+.box_footer_3 ul,
+.box_footer_4 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box_footer_2 ul li,
+.box_footer_3 ul li,
+.box_footer_4 ul li {
+    padding-bottom: 8px;
+}
+
+.box_footer_2 ul a,
+.box_footer_3 ul a,
+.box_footer_4 ul a {
+    font-size: 15px;
+    color: rgb(205, 199, 199);
+}
+
+.element_0123 ul li a {
+    position: relative;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
+
+.element_0123 ul li a::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: #858080;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform-origin: top left;
+    transition: transform 0.4s ease;
+    transform: scaleX(0);
+}
+
+.element_0123 ul li a:hover::before {
+    transform: scaleX(1);
+}

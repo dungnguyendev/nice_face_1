@@ -1,0 +1,1347 @@
+header {
+	width: 100%;
+	height: 115px;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+	padding: 13px;
+	width: 168px;
+	height: 100px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header {
+	display: flex;
+}
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header .container .navbar1 a {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	padding-right: 43px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
+.header .container .icon a {
+	color: #000000;
+}
+.header .container .icon i {
+	padding-right: 33px;
+}
+/* Banner */
+.banner {
+	width: 100%;
+	height: 491px;
+}
+/* Danh mục */
+.index-danhmuc {
+	margin-top: 100px;
+}
+.index-danhmuc .container {
+	display: flex;
+	justify-content: space-between;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+	width: 20%;
+	height: 250px;
+}
+.index-danhmuc .box {
+	position: relative;
+}
+.index-danhmuc .box .button {
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 35px;
+	background-color: #e3f5f5;
+	border-radius: 12px;
+	bottom: 0;
+	left: 0;
+	transform: translate(15%, 50%);
+}
+.index-danhmuc img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+.index-danhmuc a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+/* San pham */
+.index-sanpham {
+	margin-top: 130px;
+}
+.index-sanpham h2 {
+	text-align: center;
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.index-sanpham h4 {
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.index-sanpham .navbar {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	width: 600px;
+	height: 30px;
+	margin: 0 auto;
+}
+.index-sanpham .navbar a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+.index-sanpham .navbar .click {
+	color: #ffd706;
+}
+.index-sanpham .sanpham {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.index-sanpham .sanpham .box {
+	width: 20%;
+	height: 225px;
+}
+.index-sanpham .sanpham .box img {
+	width: 100%;
+	border-radius: 12px;
+	height: 100%;
+}
+.index-sanpham .sanpham .danhgia {
+	padding: 5px;
+}
+.index-sanpham .sanpham .danhgia i {
+	width: 17px;
+	height: 17px;
+	color: #ffd506;
+}
+.index-sanpham .sanpham .danhgia span {
+	padding-left: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.index-sanpham .sanpham a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.index-sanpham .sanpham .box h5 {
+	padding-top: 7px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+/* San pham 2 */
+.index-sanpham .sanpham2 {
+	margin-top: 120px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.index-sanpham .sanpham2 .box {
+	width: 20%;
+	height: 225px;
+}
+.index-sanpham .sanpham2 .box img {
+	width: 100%;
+	border-radius: 12px;
+	height: 100%;
+}
+.index-sanpham .sanpham2 .danhgia {
+	padding: 5px;
+}
+.index-sanpham .sanpham2 .danhgia i {
+	width: 17px;
+	height: 17px;
+	color: #ffd506;
+}
+.index-sanpham .sanpham2 .danhgia span {
+	padding-left: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.index-sanpham .sanpham2 a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.index-sanpham .sanpham2 .box h5 {
+	padding-top: 7px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.btn-xemthem {
+	margin-top: 150px;
+	text-align: center;
+}
+.xemthem {
+	padding: 13px 28px;
+	background-color: white;
+	border: 1px solid #00000066;
+	border-radius: 8px;
+}
+.btn-xemthem a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.64);
+}
+/* Gioi thieu */
+.index-gioithieu {
+	margin-top: 150px;
+}
+.index-gioithieu .gioithieu {
+	height: 370px;
+	background: #e3f5f5;
+	border-radius: 12px;
+	width: 953px;
+	float: right;
+	padding-left: 80px;
+}
+.clear {
+	clear: both;
+}
+.index-gioithieu .gioithieu h2 {
+	padding: 15px 440px 0 148px;
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.index-gioithieu .gioithieu p {
+	padding: 0 44px 44px 148px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.index-gioithieu .hinhgioithieu {
+	float: left;
+	transform: translate(60%, -10%);
+}
+/* Cam nhan */
+.index-camnhan {
+	margin-top: 100px;
+}
+.index-camnhan .container {
+	width: 900px;
+}
+.index-camnhan h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.9);
+}
+.index-camnhan p {
+	margin-top: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.64);
+}
+.binhluan {
+	margin-top: 36px;
+	display: flex;
+	justify-content: space-between;
+}
+.binhluan .hinhbinhluan {
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+}
+.binhluan1 {
+	width: 47%;
+	border: 1px solid #cccccc;
+	border-radius: 12px;
+	padding: 25px 5px;
+}
+.binhluan2 {
+	width: 47%;
+	border: 1px solid #cccccc;
+	border-radius: 12px;
+	padding: 25px 5px;
+}
+.binhluan h3 {
+	margin-top: 25px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.64);
+}
+.binhluan p {
+	margin-top: 12px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* Bai viet moi */
+.index-baivietmoi {
+	margin-top: 100px;
+}
+.index-baivietmoi h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.9);
+}
+.index-baivietmoi p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.64);
+}
+.baiviet {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.index-baivietmoi .baiviet .box {
+	width: 28%;
+	height: 250px;
+}
+.index-baivietmoi .baiviet .box img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+	object-fit: cover;
+}
+.index-baivietmoi .baiviet .box p {
+	margin-top: 13px;
+	text-align: left;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.index-baivietmoi .baiviet .box a {
+	display: block;
+	margin-top: 13px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.index-baivietmoi .baiviet .box span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* Footer */
+.footer {
+	width: 100%;
+	margin-top: 200px;
+	height: 343px;
+	background-color: #272343;
+	color: white;
+}
+.footer .content {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .content .box {
+	width: 20%;
+}
+.footer .content .box h2 {
+	font-family: 'Pacifico';
+	font-style: thin;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 26px;
+	color: #ffffff;
+}
+.footer .content .box1 p {
+	margin-top: 20px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+.footer .content .box1 .icon {
+	margin-top: 25px;
+}
+.footer .content .box1 .icon i {
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+}
+.footer .content .box2 a {
+	display: block;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 29px;
+}
+.footer .content .box2 .first {
+	margin-top: 13px;
+}
+.footer .content .box3 a {
+	display: block;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 29px;
+}
+.footer .content .box3 .first {
+	margin-top: 13px;
+}
+.footer .content .box4 .diachi {
+	margin-top: 30px;
+}
+.footer .content .box4 i {
+	width: 20px;
+	height: 30px;
+}
+.footer .content .box4 span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+}
+.footer .content .box4 .sdt {
+	margin-top: 10px;
+}
+.footer .content .box4 .mail {
+	margin-top: 10px;
+}
+/* Cart page */
+/* Dieu huong */
+.dieuhuong {
+	width: 100%;
+	height: 260px;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url(../image/image19.png) no-repeat;
+	background-size: cover;
+}
+.dieuhuong-content {
+	padding-top: 90px;
+}
+.dieuhuong p {
+	position: relative;
+	z-index: 1;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #cccccc;
+}
+.dieuhuong span {
+	color: #ffffff;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+.dieuhuong h1 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	color: #ffffff;
+}
+/* Gio hang */
+.banggiohang {
+	margin-top: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+.thongtingiohang {
+	width: 69%;
+}
+.tonggiohang {
+	width: 29%;
+}
+.thongtingiohang .bang th {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.thongtingiohang .bang .cot1 {
+	padding-right: 80px;
+}
+.thongtingiohang .bang .cot2 {
+	padding-right: 110px;
+}
+.thongtingiohang .bang .cot3 {
+	padding-right: 40px;
+}
+.thongtingiohang .bang .cot4 {
+	padding-right: 30px;
+}
+.thongtingiohang .bang .cot5 {
+	padding-right: 30px;
+}
+.thongtingiohang .bang {
+	padding: 5px;
+	border-collapse: collapse;
+}
+.thongtingiohang .tr2 {
+	border: 0;
+}
+.thongtingiohang .tr1 th {
+	padding-bottom: 20px;
+}
+.thongtingiohang .tr2 {
+	border: 1px #cccccc solid;
+	border-radius: 12px;
+}
+.thongtingiohang tr td {
+	vertical-align: top;
+	padding: 20px;
+}
+.tdhinh {
+	width: 60px;
+	height: 60px;
+	padding-right: 10px;
+}
+.thongtingiohang .noidung {
+	line-height: 20px;
+}
+.thongtingiohang button {
+	padding: 10px 18px;
+	border-radius: 8px;
+	border: none;
+	background-color: #ffd706;
+}
+.thongtingiohang .magiamgia {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 810px;
+}
+.magiamgia input {
+	width: 55%;
+	height: 60px;
+	padding-left: 20px;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.64);
+	border: 1px solid #cccccc;
+}
+.magiamgia button {
+	width: 39%;
+	padding-right: 20px;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.tonggiohang {
+	background-color: #e3f5f5;
+	height: 440px;
+	border-radius: 12px;
+}
+.tonggiohang h2 {
+	margin: 47px 0;
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongphu {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+}
+.tonggiohang .tongphu p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongphu span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .giaohang {
+	padding: 25px;
+}
+.tonggiohang .giaohang p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .giaohang span {
+	display: block;
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .tongdonhang {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px 25px;
+}
+.tonggiohang .tongdonhang p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.tonggiohang .tongdonhang span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.tonggiohang .btn-kiemtra {
+	width: 100%;
+}
+.tonggiohang button {
+	margin-left: 25px;
+	padding: 15px 80px;
+	background-color: transparent;
+	border: 1px solid #ffd706;
+	border-radius: 12px;
+}
+.tonggiohang .btn-kiemtra a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* San pham tuong tu */
+.sptuongtu {
+	margin-top: 180px;
+}
+.sptuongtu h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 153.6%;
+	color: #000000;
+	text-align: center;
+}
+.sptuongtu p {
+	padding-top: 15px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 153.6%;
+	text-align: center;
+	color: #000000;
+}
+.sptuongtu .sanpham {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.sptuongtu .sanpham .box {
+	width: 20%;
+	height: 225px;
+}
+.sptuongtu .sanpham .box img {
+	width: 100%;
+	border-radius: 12px;
+	height: 100%;
+}
+.sptuongtu .sanpham .danhgia {
+	padding: 5px;
+}
+.sptuongtu .sanpham .danhgia i {
+	width: 17px;
+	height: 17px;
+	color: #ffd506;
+}
+.sptuongtu .sanpham .danhgia span {
+	padding-left: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.sptuongtu .sanpham a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.sptuongtu .sanpham .box h5 {
+	padding-top: 7px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+/* Trang Blog */
+.blog {
+	margin-top: 140px;
+}
+.blog .container {
+	display: flex;
+	justify-content: space-between;
+}
+.blog .baivietmoinhat {
+	width: 65%;
+}
+.blog .navigation {
+	padding-top: 40px;
+	width: 25%;
+}
+.blog .baivietmoinhat h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.blog .baivietmoinhat .baiviet {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.blog .baivietmoinhat img {
+	width: 100%;
+	height: 402px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+.blog .baivietmoinhat .baiviet span {
+	padding-top: 15px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.blog .baivietmoinhat .baiviet a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.blog .baivietmoinhat .baiviet p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 34px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.blog .baivietmoinhat .phantrang {
+	padding-top: 50px;
+	width: 50%;
+	margin: auto;
+}
+.blog .baivietmoinhat .phantrang a {
+	display: inline-block;
+	font-family: 'Roboto';
+	padding: 0 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.blog .baivietmoinhat .phantrang .active {
+	color: #ffd506;
+}
+/* Navigation blog */
+.blog .navigation h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.blog .navigation input {
+	margin-top: 30px;
+	padding: 15px;
+	width: 100%;
+	border: none;
+	border: 1px solid #cccccc;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.blog .navigation .navi1 {
+	padding-top: 40px;
+}
+.blog .navigation .danhmuc a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid #cccccccc;
+}
+.blog .navigation .giamgia {
+	margin-top: 50px;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(../image/hoahong.jpg);
+	height: 340px;
+	width: 315px;
+	border-radius: 12px;
+	background-size: cover;
+}
+.blog .navigation .giamgia h2 {
+	padding-top: 150px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.blog .navigation .giamgia img {
+	height: 200px;
+}
+.blog .navigation .giamgia h3 {
+	font-family: 'Roboto';
+	padding-top: 50px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.blog .navigation .navi2 {
+	padding-top: 40px;
+}
+.blog .navigation .navi-baiviet {
+	padding-top: 40px;
+}
+.blog .navigation .navi-baiviet span {
+	font-family: 'Roboto';
+	display: block;
+	padding-top: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.blog .navigation .navi-baiviet a {
+	padding-top: 10px;
+	display: inline-block;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* Detail blog */
+.detailblog {
+	margin-top: 140px;
+}
+.detailblog .container {
+	display: flex;
+	justify-content: space-between;
+}
+.detailblog .chitietbaiviet {
+	width: 65%;
+}
+.detailblog .navigation {
+	width: 25%;
+}
+.detailblog .chitietbaiviet h2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.detailblog .chitietbaiviet img {
+	margin-top: 50px;
+	width: 100%;
+	height: 340px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+.detailblog .chitietbaiviet h3 {
+	padding-top: 30px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.detailblog .chitietbaiviet p {
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 37px;
+	color: #000000;
+}
+.detailblog .chitietbaiviet .hinhanh {
+	display: flex;
+	justify-content: space-between;
+}
+.detailblog .chitietbaiviet .hinh1 {
+	width: 30%;
+}
+.detailblog .chitietbaiviet .hinh2 {
+	width: 30%;
+}
+.detailblog .chitietbaiviet .hinh3 {
+	width: 30%;
+}
+.detailblog .chitietbaiviet .hinhanh img {
+	height: 133px;
+	object-fit: cover;
+}
+/* Comment */
+.detailblog .chitietbaiviet .comment {
+	padding-top: 80px;
+}
+.detailblog .chitietbaiviet .comment h2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.detailblog .chitietbaiviet .comment .chitietcomment {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 20px;
+	border: 1px solid #cccccc;
+	border-radius: 12px;
+	margin-top: 30px;
+}
+.detailblog .chitietbaiviet .comment .chitietcomment .avatar {
+	width: 19%;
+}
+.detailblog .chitietbaiviet .comment .chitietcomment .thongtincomment {
+	width: 79%;
+}
+.detailblog .chitietbaiviet .comment .chitietcomment img {
+	width: 150px;
+	height: 150px;
+	margin: 0;
+}
+.detailblog .chitietbaiviet .comment .thongtincomment h4 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.detailblog .chitietbaiviet .comment .thongtincomment span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.detailblog .chitietbaiviet .comment .thongtincomment p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgba(0, 0, 0, 0.64);
+}
+/* Navigation detailblog */
+.detailblog .navigation h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.detailblog .navigation input {
+	margin-top: 30px;
+	padding: 15px;
+	width: 100%;
+	border: none;
+	border: 1px solid #cccccc;
+	border-radius: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.detailblog .navigation .navi1 {
+	padding-top: 40px;
+}
+.detailblog .navigation .danhmuc a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid #cccccccc;
+}
+.detailblog .navigation .giamgia {
+	margin-top: 50px;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(../image/hoahong.jpg);
+	height: 340px;
+	width: 315px;
+	border-radius: 12px;
+	background-size: cover;
+}
+.detailblog .navigation .giamgia h2 {
+	padding-top: 150px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.detailblog .navigation .giamgia img {
+	height: 200px;
+}
+.detailblog .navigation .giamgia h3 {
+	font-family: 'Roboto';
+	padding-top: 50px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.detailblog .navigation .navi2 {
+	padding-top: 40px;
+}
+.detailblog .navigation .navi-baiviet {
+	padding-top: 40px;
+}
+.detailblog .navigation .navi-baiviet span {
+	font-family: 'Roboto';
+	display: block;
+	padding-top: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.detailblog .navigation .navi-baiviet a {
+	padding-top: 10px;
+	display: inline-block;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.8);
+}
+/* Binh luan */
+.binhluanblog {
+	margin-top: 100px;
+}
+.binhluanblog h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 60px;
+}
+.binhluanblog .input {
+	display: flex;
+	justify-content: space-between;
+}
+.binhluanblog .text1 {
+	width: 48%;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	padding: 15px 0 15px 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.binhluanblog .text2 {
+	width: 48%;
+	padding: 15px 0 15px 10px;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.binhluanblog textarea {
+	width: calc(100% - 20px);
+	padding: 0;
+	padding: 10px;
+	resize: none;
+	height: 300px;
+	margin-top: 25px;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.binhluanblog .btn-gui {
+	text-align: center;
+	margin-top: 80px;
+}
+.binhluanblog .btn-gui button {
+	border: none;
+	background: #ffd706;
+	border-radius: 8px;
+	padding: 15px 80px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 153.6%;
+	color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+}
+/* Contact page */
+.contactpage {
+	margin-top: 120px;
+}
+.contactpage h2 {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 84px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+.contactpage .container p {
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.64);
+}
+.contactpage .thongtincontact {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	text-align: center;
+}
+.contactpage .thongtincontact .diachi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 31%;
+	height: 270px;
+	background: #e3f5f5;
+	border-radius: 12px;
+}
+.contactpage .thongtincontact i {
+	font-size: 40px;
+}
+.contactpage .thongtincontact h4 {
+	padding-top: 15px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 31px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.contactpage .thongtincontact p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	color: rgba(0, 0, 0, 0.64);
+}
+.contactpage .thongtincontact .hotline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 31%;
+	height: 270px;
+	background: #e3f5f5;
+	border-radius: 12px;
+}
+.contactpage .thongtincontact .email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 31%;
+	height: 270px;
+	background: #e3f5f5;
+	border-radius: 12px;
+}
