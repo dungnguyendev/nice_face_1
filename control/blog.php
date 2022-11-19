@@ -42,19 +42,19 @@
 				<div class="baiviet">
 					<img src="../image/h23451.png" alt="hinh">
 					<span>2022-10-01</span>
-					<a href="../detail_blog.html">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
+					<a href="../control/detail_blog.php">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
 					<p>Ngày 24/11 vừa qua, Shop ra mắt sản ohẩm mới nhằm giúp cho khách hàng có nhiều sự lựa chọn hơn. Cũng như có thê những sản phẩm tốt và chất lượng cho khách hàng.</p>
 				</div>
 				<div class="baiviet">
 					<img src="../image/h23451.png" alt="hinh">
 					<span>2022-10-01</span>
-					<a href="../detail_blog.html">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
+					<a href="../control/detail_blog.php">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
 					<p>Ngày 24/11 vừa qua, Shop ra mắt sản ohẩm mới nhằm giúp cho khách hàng có nhiều sự lựa chọn hơn. Cũng như có thê những sản phẩm tốt và chất lượng cho khách hàng.</p>
 				</div>
 				<div class="baiviet">
 					<img src="../image/h23451.png" alt="hinh">
 					<span>2022-10-01</span>
-					<a href="../detail_blog.html">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
+					<a href="../control/detail_blog.php">Bộ sưu tập sản phẩm vừa ra mắt gần đây trở nên “ cháy hàng”</a>
 					<p>Ngày 24/11 vừa qua, Shop ra mắt sản ohẩm mới nhằm giúp cho khách hàng có nhiều sự lựa chọn hơn. Cũng như có thê những sản phẩm tốt và chất lượng cho khách hàng.</p>
 				</div>
 				<div class="phantrang">
